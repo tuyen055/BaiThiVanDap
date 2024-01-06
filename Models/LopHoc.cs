@@ -8,5 +8,7 @@ namespace DoanThiTuyen_039.Models{
         public string  MaLop { get; set; }
         public string TenLop { get; set; }
         public string DiaChi { get; set; }
+          public ICollection<SinhVien>? SinhVien { get; set; }
+
     }
 }
